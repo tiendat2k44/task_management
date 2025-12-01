@@ -1,0 +1,9 @@
+.nav-link {
+    color: #fff !important;              /* trắng mặc định */
+    transition: color 0.2s;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #FFD700 !important;           /* vàng khi hover hoặc focus */
+    text-decoration: none;
+}
