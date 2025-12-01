@@ -1,3 +1,9 @@
+<?php
+// auth.php - include ở đầu các trang cần bảo vệ (phải trước mọi output)
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
